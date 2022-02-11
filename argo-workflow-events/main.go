@@ -53,9 +53,6 @@ func main() {
 	fmt.Println("Argo Workflows can be accessed at http://localhost:32746/workflows ...")
 	fmt.Printf("set KUBECONFIG to %s to connect with kubectl ...\n", kubeconfigFilePath)
 
-	config := os.Getenv("KUBECONFIG")
-	os.Setenv("KUBECONFIG", kubeconfigFilePath)
-
 	fmt.Println("press any key to destroy the cluster...")
 	fmt.Scanln()
 
