@@ -3,4 +3,7 @@ This is a local deployment of argo workflows and argo events with a predeployed 
 
 ## How to Use
 
-    go build main.go -o kubby-argo
+    go build -o kubby-argo main.go
+    ./kubby-argo
+
+The binary should output what ip to go to and what to set KUBECONFIG to access the cluster
