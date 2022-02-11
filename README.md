@@ -1,2 +1,2 @@
 # kubby-argo
-a local deployment of argo workflow and events using kubby
+examples of how to use kubby for local development
